@@ -1,0 +1,19 @@
+type AgreementStatusUpdate @entity(immutable: true) {
+  id: Bytes!
+  seller: Bytes! # address
+  purchaser: Bytes! # address
+  timestamp: BigInt! # uint256
+  status: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type OwnershipTransferred @entity(immutable: true) {
+  id: Bytes!
+  previousOwner: Bytes! # address
+  newOwner: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
