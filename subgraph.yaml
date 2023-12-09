@@ -6,7 +6,7 @@ dataSources:
     name: ThunderFi
     network: arbitrum-one
     source:
-      address: "0x5d7A7c08Fa8f2eD91A440dB4989327b79CB12B28"
+      address: "0x63112998a5E8bBd85C9c0506C1060927668437Bc"
       abi: ThunderFi
       startBlock: 158444713
     mapping:
